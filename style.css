@@ -73,6 +73,14 @@ ul {
       cursor: pointer;
   }
   
+  .presentation{
+    right: 0%;
+    background-color: #0000005e;
+    height: 100%;
+    width: 300px;
+    position: fixed;
+  }
+
   img{
       width: 300px;
   }
@@ -132,5 +140,10 @@ ul {
   .whiteCenter{
       text-align: center;
       color: white;
+  }
+
+  .warning{
+    background-color: yellow;
+    color: red;
   }
   
