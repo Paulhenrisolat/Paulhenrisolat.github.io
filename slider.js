@@ -1,5 +1,7 @@
 let imgNum = 0;
 
+setInterval("NextImg()", 4000);
+
 function NextImg() 
 {
     imgNum = imgNum + 1;

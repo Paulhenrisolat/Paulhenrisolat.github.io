@@ -103,6 +103,10 @@ ul {
   .row{
       display: flex;
   }
+
+  .centerobj{
+    margin-left: 75px;
+  }
   
   a, h1, td, th{
       color: white;
@@ -194,6 +198,15 @@ ul {
     border: 2px solid orange;
     color: red;
     font-size: 15px;
+  }
+
+  .linker{
+    color: rgb(12, 93, 243);
+    cursor: pointer;
+    padding-bottom: 90px;
+  }
+  .linker:hover{
+    color: orange;
   }
 
   .fade-in{
