@@ -96,7 +96,8 @@ ul {
   .bigimg{
       border: 2px solid black;
       margin: auto;
-      width: 740px;
+      width: auto;
+      height: 590px;
   }
   
   .row{
@@ -108,6 +109,11 @@ ul {
       text-decoration: none;
   }
   
+  h3{
+    margin-top:40px;
+    margin-bottom:40px
+  }
+
   h2{
       text-align: center;
       font-size:40px;
@@ -134,6 +140,33 @@ ul {
       font-family: 'Montserrat','Montserrat-fallback',Arial,sans-serif;
   }
   
+  .btn{
+    border: 2px solid black;
+    background-color: #21c229e1;
+    border-radius: 12px;
+    padding: 5px 50px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .btn:hover{
+    background-color: #27d83077
+  }
+
+  .btnplay{
+    background-color: black;
+    color: white;
+    font-family: Consolas;
+    padding: 5px 50px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .btnplay:hover{
+    background-color: white;
+    color: black;
+  }
+
   .elements{
       margin: auto;
   }
@@ -148,9 +181,19 @@ ul {
       color: white;
   }
 
+  .aleft{
+    color: rgb(109, 75, 13);
+  }
+
   .warning{
     background-color: yellow;
     color: red;
+  }
+
+  .betasticker{
+    border: 2px solid orange;
+    color: red;
+    font-size: 15px;
   }
 
   .fade-in{

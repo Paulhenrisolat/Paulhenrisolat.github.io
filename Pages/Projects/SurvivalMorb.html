@@ -3,6 +3,7 @@
 <html>
     <head>
         <title>Paul-Henri Solat</title>
+        <link rel="icon" type="image/x-icon" href="../../Images/favicon.ico">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://kit.fontawesome.com/77019732b3.js" crossorigin="anonymous"></script>
@@ -18,12 +19,12 @@
           <a href="../../ShareFiles/CV_Paul-Henri_Solat_V4.pdf" target=”_blank” title="CV Paul-Henri Solat"><i class="fa-solid fa-download">&nbsp;</i>CV</a>
           <a href="https://github.com/Paulhenrisolat" target=”_blank”><i class="fa-brands fa-github"></i>&nbsp;Github</a>
           <a href="../contact.html"><i class="fa-solid fa-address-book"></i>&nbsp;Contact</a>
+          <a>© Paul-Henri Solat 2023 created from scratch</a>
         </div>
         
         <!-- Page content -->
         <div class="content">
-            <h2>- Survival Morb -</h2>
-            
+            <h2>- Survival Morb<b class="betasticker">Beta</b> -</h2>
             <!-- TechUsed -->
             <div class="row">
                 <div class="elements row">
@@ -45,7 +46,7 @@
             <!-- Small intro -->
             <h3 class="desc"><span>[ Game 3D Survival multiplayer isometric camera ]</span></h3>
             
-            <!-- Image presentation -->
+            <!-- Image presentation Slider -->
             <div class="row">
                 <div class="elements row">
                 <img id="img1" class="bigimg fade-in" src="../../Images/morbimg/morb3.png" alt="" style="display: block;"/>
@@ -55,12 +56,15 @@
                 </div>
             </div>
 
+            <!-- Slider button -->
             <p class="whiteCenter">
-                <input id="Button1" type="button" value="<" onclick="PreviousImg()" />&nbsp;&nbsp; 
-                <input id="Button2" type="button" value=">" onclick="NextImg()" />
-                <p style="display: none;"><img id="img" class="bigimg" src="../../Images/morbimg/morb1.png"></p>
+                <input class="btn" id="Button1" type="button" value="<" onclick="PreviousImg()" />&nbsp;&nbsp; 
+                <input class="btn" id="Button2" type="button" value=">" onclick="NextImg()" />
             </p>
-            
+
+            <!-- Play button -->
+            <h3 class="whiteCenter"><a class="btnplay whiteCenter" href="#play">Play!</a></h3>
+
             <!-- Description -->
             <h1 class="desc">Description</h1>
             <h3 class="whiteCenter">
@@ -78,16 +82,15 @@
             </h3>
 
             <!--Try it yourself-->
-            <h1 class="desc">Try it yourself</h1>
+            <h1 class="desc" id="play">Try it yourself</h1>
+            <h3 class="whiteCenter aleft">
+                <a>1 -</a> Go to my GoogleDrive link just below<br>
+                <a>2 -</a> Download the Zip Folder <mark>with the name of the game</mark><br>
+                <a>3 -</a> Extract it using winrar or the computer regular option<br>
+                <a>4 -</a> Launch the "GameName Application (.exe)"<br>
+                <a>5 -</a> Enjoy !<br>
+            </h3>
         </div>
-        
-        <!-- Footer -->
-          <br>
-          <br>
-          <br>
-          <footer>
-            © Paul-Henri Solat 2023 created from scratch<br>Contact
-          </footer>
     </body>
     
 </html>
