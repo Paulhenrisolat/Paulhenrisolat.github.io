@@ -128,8 +128,10 @@ ul {
     text-align: center;
   }
   
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
   html{
-      font-family: Consolas;
+      /*font-family: Consolas;*/
+      font-family: 'Montserrat','Montserrat-fallback',Arial,sans-serif;
   }
   
   .elements{
@@ -149,5 +151,17 @@ ul {
   .warning{
     background-color: yellow;
     color: red;
+  }
+
+  .fade-in{
+    animation: fadeIn 2s;
+  }
+
+  @keyframes fadeIn{
+    from{
+      opacity: 0;
+    }to{
+      opacity: 1;
+    }
   }
   

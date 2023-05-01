@@ -6,6 +6,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://kit.fontawesome.com/77019732b3.js" crossorigin="anonymous"></script>
+        <script src="../../slider.js"></script>
         <link href="../../style.css" rel="stylesheet" type="text/css"/>
     </head>
     
@@ -25,32 +26,59 @@
             
             <!-- TechUsed -->
             <div class="row">
-            <div class="elements row">
-            <table>
-                <tr><th><img class="icon" src="../../Images/c-sharp-icon.png" alt="C#Icon"/></th><th>C-Sharp</th></tr>
-            </table>
-            <table>
-                <tr><th><img class="icon" src="../../Images/unity-icon.png" alt="UnityIcon"/></th><th>Unity</th></tr>
-            </table>
+                <div class="elements row">
                 <table>
-                <tr><th><img class="icon" src="../../Images/github-icon.png" alt="GithubIcon"/></th><th>Github</th></tr>
-            </table>
-            </div>
+                    <tr><th><img class="icon" src="../../Images/c-sharp-icon.png" alt="C#Icon"/></th><th>C-Sharp</th></tr>
+                </table>
+                <table>
+                    <tr><th><img class="icon" src="../../Images/unity-icon.png" alt="UnityIcon"/></th><th>Unity</th></tr>
+                </table>
+                <table>
+                    <tr><th><img class="icon" src="../../Images/github-icon.png" alt="GithubIcon"/></th><th>Github</th></tr>
+                </table>
+                <table>
+                    <tr><th><img class="icon" src="../../Images/pun2-icon.png" alt="Pun2Icon"/></th><th>Pun2</th></tr>
+                </table>
+                </div>
             </div>
             
             <!-- Small intro -->
-            <h3 class="desc"><span>[ 3D Survival multiplayer game with isometric camera ]</span></h3>
+            <h3 class="desc"><span>[ Game 3D Survival multiplayer isometric camera ]</span></h3>
             
             <!-- Image presentation -->
             <div class="row">
-            <div class="elements row">
-            <img class="bigimg" src="../../Images/morbimg/morb3.png" alt=""/>
+                <div class="elements row">
+                <img id="img1" class="bigimg fade-in" src="../../Images/morbimg/morb3.png" alt="" style="display: block;"/>
+                <img id="img2" class="bigimg fade-in" src="../../Images/morbimg/morb1.png" style="display: none;"></p>
+                <img id="img3" class="bigimg fade-in" src="../../Images/morbimg/morb2.png" style="display: none;"></p>
+                <img id="img4" class="bigimg fade-in" src="../../Images/morbimg/morb4.png" style="display: none;"></p>
+                </div>
             </div>
-            </div>
+
+            <p class="whiteCenter">
+                <input id="Button1" type="button" value="<" onclick="PreviousImg()" />&nbsp;&nbsp; 
+                <input id="Button2" type="button" value=">" onclick="NextImg()" />
+                <p style="display: none;"><img id="img" class="bigimg" src="../../Images/morbimg/morb1.png"></p>
+            </p>
             
             <!-- Description -->
-            <h3 class="whiteCenter">"Survival morb" is a Unity3D zombie survival shooter game multiplayer with an isometric view.</h3>
+            <h1 class="desc">Description</h1>
+            <h3 class="whiteCenter">
+                "Survival morb" is a Unity3D game where you have to protect the electric generator of your base against wave of ennemies called "Morbs".<br>
+                You can use a pistol with limited ammo which can be dropped by Morbs (They can also drop money).<br>
+                This game can be played with friends, you can insert a username make a room and joining room from other players.
+            </h3>
             
+            <!--How it works-->
+            <h1 class="desc">How it works ?</h1>
+            <h3 class="whiteCenter">
+                I used Photon Pun2 for the rooms system and the synchronization between players.<br>
+                I personnaly made the "Wave script" wich is used to spawn Morbs when they all die, then increase their number with a customizable scale.<br>
+                The game also use an isometric camera.
+            </h3>
+
+            <!--Try it yourself-->
+            <h1 class="desc">Try it yourself</h1>
         </div>
         
         <!-- Footer -->
@@ -58,7 +86,7 @@
           <br>
           <br>
           <footer>
-            © Paul-Henri Solat 2023<br>Contact
+            © Paul-Henri Solat 2023 created from scratch<br>Contact
           </footer>
     </body>
     
