@@ -200,6 +200,10 @@ ul {
     font-size: 15px;
   }
 
+  .underline{
+    text-decoration: underline;
+  }
+
   .linker{
     color: rgb(12, 93, 243);
     cursor: pointer;
