@@ -1,6 +1,6 @@
 let imgNum = 0;
 
-setInterval("NextImg()", 4000);
+setInterval("NextImg()", 6000);
 
 function NextImg() 
 {
