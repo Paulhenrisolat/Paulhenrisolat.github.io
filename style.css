@@ -204,6 +204,24 @@ ul {
     text-decoration: underline;
   }
 
+  code{
+    color: white;
+    border-color: white;
+    background-color: #000000;
+    border: 1px solid #312f2f;
+    padding: 20px;
+    margin: auto;
+    width: 500px;
+  }
+
+  .codename{
+    color: #04AA6D;
+  }
+
+  .centerpage{
+    margin: auto;
+  }
+
   .linker{
     color: rgb(12, 93, 243);
     cursor: pointer;

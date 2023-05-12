@@ -7,8 +7,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://kit.fontawesome.com/77019732b3.js" crossorigin="anonymous"></script>
-        <script src="../../slider.js"></script>
         <link href="../../style.css" rel="stylesheet" type="text/css"/>
+        <script src="../../slider.js"></script>
+        <script src="../../showcode.js"></script>
+        
     </head>
     
     <body>
@@ -88,6 +90,40 @@
                 I personnaly made the "Wave script" wich is used to spawn Morbs when they all die, then increase their number with a customizable scale.<br>
                 The game also use an isometric camera.
             </h3>
+
+            <!--Developer Notes-->
+            <h1 class="desc">Developer Notes :</h1>
+            <h3 class="whiteCenter">
+                -No event for player death at the moment (when you die you can close the game)<br>
+                -The money cant be use for now (for next update focusing weapon gadget and upgrades)<br>
+                -The movement controls and shooting have to be rework.
+            </h3>
+
+            <!--Codes sample-->
+            <h1 class="desc">Codes sample :</h1>
+            <p class="whiteCenter">
+                <input class="" id="Button2" type="button" value="ShowCode" onclick="btncode()" />
+            </p>
+
+            <code id="code" style="display: none;">
+                <p class="whiteCenter codename">MorbWave</p>
+
+                void Start()<br>
+                {<br>
+                    if(PhotonNetwork.IsMasterClient)<br>
+                    {<br>
+                        actualWave = 1;<br>
+                        maxWave = 15;<br>
+                        nbMorbsToSpawn = 4;<br>
+                        nbMorbsToSpawnActually = nbMorbsToSpawn;<br>
+                        waitNextMorb = 2f;<br>
+                        waitNextWave = 5f;<br>
+                        canSpawnMorb = true;<br>
+                        CanStartCount = false;<br>
+                    }<br>
+                }<br>
+                ...
+            </code>
 
             <!--Try it yourself-->
             <h1 class="desc" id="play">Try it yourself</h1>
