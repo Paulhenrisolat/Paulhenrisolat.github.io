@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Paul-Henri Solat</title>
+        <link rel="icon" type="image/x-icon" href="../../Images/favicon.ico">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/77019732b3.js" crossorigin="anonymous"></script>
+        <link href="../../style.css" rel="stylesheet" type="text/css"/>
+        <script src="../../slider.js"></script>
+        <script src="../../showcode.js"></script>
+        
+    </head>
+    
+    <body>
+        <!--sidebar-->
+        <div class="sidebar">
+          <a href="../../index.html">Home</a>
+          <a class="active" href="#Projects"><i class="fa-solid fa-file">&nbsp;</i>Projects</a>
+          <a href="../../ShareFiles/CV_Paul-Henri_Solat_V4.pdf" target=”_blank” title="CV Paul-Henri Solat"><i class="fa-solid fa-download">&nbsp;</i>CV</a>
+          <a href="https://github.com/Paulhenrisolat" target=”_blank”><i class="fa-brands fa-github"></i>&nbsp;Github</a>
+          <a href="../contact.html"><i class="fa-solid fa-address-book"></i>&nbsp;Contact</a>
+          <a>© Paul-Henri Solat 2023 created from scratch</a>
+        </div>
+        
+        <!--Page content-->
+        <div class="content">
+            <h2>- Nolark -</h2>
+
+            <!--TechUsed-->
+            <div class="row">
+                <div class="elements row">
+                <table>
+                    <tr><th><img class="icon" src="../../Images/html-ico.png" alt="htmlIcon"/></th><th>HTML</th></tr>
+                </table>
+                <table>
+                    <tr><th><img class="icon" src="../../Images/css-ico.png" alt="CssIcon"/></th><th>CSS</th></tr>
+                </table>
+                <table>
+                    <tr><th><img class="icon" src="../../Images/js-ico.png" alt="JsIcon"/></th><th>JavaScript</th></tr>
+                </table>
+                <table>
+                    <tr><th><img class="icon" src="../../Images/github-icon.png" alt="GithubIcon"/></th><th>Github</th></tr>
+                </table>
+                </div>
+            </div>
+            
+            <!--TAGS-->
+            <h3 class="desc"><span>[ Showing Website shop ]</span></h3>
+            
+            <!--Image presentation Slider-->
+            <div class="row">
+                <div class="elements row">
+                <img id="img1" class="bigimg fade-in" src="../../Images/nolimg/nolark1.PNG" alt="" style="display: block;"/>
+                <img id="img2" class="bigimg fade-in" src="../../Images/nolimg/nolark5.PNG" style="display: none;"></p>
+                <img id="img3" class="bigimg fade-in" src="../../Images/nolimg/nolark3.PNG" style="display: none;"></p>
+                <img id="img4" class="bigimg fade-in" src="../../Images/nolimg/nolark4.PNG" style="display: none;"></p>
+                </div>
+            </div>
+
+            <!--Slider button-->
+            <p class="whiteCenter">
+                <input class="btn" id="Button1" type="button" value="<" onclick="PreviousImg()" />&nbsp;&nbsp; 
+                <input class="btn" id="Button2" type="button" value=">" onclick="NextImg()" />
+            </p>
+
+            <!--Description-->
+            <h1 class="desc">Description</h1>
+            <h3 class="whiteCenter">
+                "Nolark" is a shoping website for bike helmet.<br>
+                You can use a the "test alcoolemie" page to verify your max consomation of drink.<br>
+            </h3>
+            <div class="row">
+                <div class="elements row">
+                <img class="fade-in" src="../../Images/morbimg/morb19.gif"></p>
+                <img class="fade-in" src="../../Images/morbimg/morb20.gif"></p>
+                <img class="fade-in" src="../../Images/morbimg/morb21.gif"></p>
+                </div>
+            </div>
+            
+            <!--How it works-->
+            <h1 class="desc">How it works ?</h1>
+            <h3 class="whiteCenter">
+                -
+            </h3>
+
+            <!--Developer Notes-->
+            <h1 class="desc">Developer Notes :</h1>
+            <h3 class="whiteCenter">
+                -
+            </h3>
+
+            <!--Codes sample-->
+            <h1 class="desc">Codes sample :</h1>
+            <p class="whiteCenter">
+                <input class="" id="Button2" type="button" value="ShowCode" onclick="btncode()" />
+            </p>
+
+            <code id="code" style="display: none;">
+                <p class="whiteCenter codename">Index</p>
+                ...
+            </code>
+
+        </div>
+    </body>
+    
+</html>
